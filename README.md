@@ -5,6 +5,7 @@ This repository has the necessary code, CAD and circuit files in order to build 
 
 1. Tinkercad: Used to make the CAD designs for 3D print, using `STL` files (https://www.tinkercad.com/)
 2. Circuit Diagram: Used to make circuit schematics using an online IDE (https://www.circuit-diagram.org/)
+3. PRUSA 3D Slicer: Used to generate the G Code and the sliced version of the 3D element (https://www.prusa3d.com/drivers/)
 
 ### Hardware Components used
 
