@@ -1,6 +1,10 @@
 # iGEM 2020 - EPFL team's Github
 This repository has the necessary code, CAD and circuit files in order to build your own ExpressEAU.
 
+### Project Abstract
+
+Water is an essential resource that we regularly use for drinking, cooking and food processing. Hence, it is important to ensure that it is safe for consumption. EspressEAU serves as an analysis of general water quality. We aimed to create a safe, low-cost, and easy-to-use system that can enable on-site testing of water at home or in small communities. We hypothesized that genetically engineered yeast could be used as biosentinels by hijacking the yeast stress response pathway using either deletion strains or fluorescent reporter strains that are sensitive to water contaminants. These biosentinels are grown in a DIY system with temperature control, stirring, and two optical detectors for fluorescence and density, allowing us to monitor growth and fluorescence of the yeast, and thus detect the presence of contaminants in the water sample. We hope our project will facilitate frequent water testing of local water sources.
+
 ### Software used
 
 1. Tinkercad: Used to make the CAD designs for 3D print, using `STL` files (https://www.tinkercad.com/)
