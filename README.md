@@ -78,7 +78,7 @@ https://www.sparkfun.com/products/9768
 
 #### DC Motor (working with 6V or 9V - 9V is generally more consistent)
 
-<img src="https://hk.element14.com/productimages/standard/en_GB/2457411-40.jpg" alt="DC Motor" width="200"/>
+<img src="https://cdn.sparkfun.com//assets/parts/7/8/6/0/11696-01.jpg" alt="DCMotor_" width="200"/>
 
 [Datasheet](https://www.arduino.cc/documents/datasheets/DCmotor.PDF)
 [Source](https://aliexpress.com)
