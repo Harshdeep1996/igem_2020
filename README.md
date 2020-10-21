@@ -13,10 +13,17 @@ Water is an essential resource that we regularly use for drinking, cooking and f
 
 ### Hardware Components used
 
-#### Microcontroller: Arduino Nano
-<img src="https://www.distrelec.ch/Web/WebShopImages/landscape_large/73/3f/arduino-nano-A000005-11096733f.jpg" alt="Arduino Nano" width="200"/>
+#### Microcontroller: Arduino Uno
+<img src="https://www.olelectronics.com/wp-content/uploads/2020/03/Arduino_Uno_R3.jpg" alt="Arduino Nano" width="200"/>
 
-[Source](https://store.arduino.cc/usa/arduino-nano)
+[Source](https://www.arduino.cc/en/Guide/ArduinoUno)
+
+
+### Cable: USB for data transfer
+<img src="https://images-na.ssl-images-amazon.com/images/I/41PIihh3qnL._AC_.jpg" alt="USB cable" width="200"/>
+
+[Datasheet](https://www.arduino.cc/documents/datasheets/USBcable.PDF)
+[Source](https://store.arduino.cc/usb-2-0-cable-type-a-b?queryID=aa479172c324b5d009057f23eaddd86c)
 
 
 #### Temperature Sensor: TMP36
@@ -24,6 +31,33 @@ Water is an essential resource that we regularly use for drinking, cooking and f
 
 [Datasheet](https://www.analog.com/en/products/tmp36.html)
 [Source](https://learn.adafruit.com/tmp36-temperature-sensor)
+
+
+#### Light to Frequency Sensor: TMP36 (primarily for optical density measurement)
+<img src="https://cdn.sparkfun.com//assets/parts/3/7/4/0/09768-01.jpg" alt="light_to_frequency" width="200"/>
+
+[Datasheet](https://www.sparkfun.com/datasheets/Sensors/Imaging/TSL235R-LF.pdf)
+[Source](https://www.sparkfun.com/products/9768)
+
+
+#### RGB Light Sensor: ISL9125 (primarily for fluorescence measurement)
+<img src="https://cdn.sparkfun.com//assets/parts/9/6/7/7/12829-01.jpg" alt="TMP36" width="200"/>
+
+[Datasheet](https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/isl29125.pdf)
+[Source](https://www.sparkfun.com/products/12829)
+
+
+#### OEM Temperature sensor: DS18B20 (for calibration and check of TMP36 sensor)
+<img src="https://static.digitecgalaxus.ch/Files/1/2/8/2/6/0/6/7/dsbicdigi-1388370334-18330.jpg?impolicy=ProductTileImage&resizeWidth=436&resizeHeight=335&quality=high&cropWidth=436&cropHeight=335" alt="DS18B20" width="200"/>
+
+[Datasheet](https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf)
+[Source](https://www.digitec.ch/de/s1/product/oem-ds18b20-sensor-elektronikmodul-8030174)
+
+
+#### Power Supply 9V, 1.5A (Variable): Goobay 3 V - 12 V universal power supply 1.5A
+<img src="https://static.digitecgalaxus.ch/Files/2/6/9/4/5/2/5/6/53997_neu_2018-07_1280x720.jpg?impolicy=ProductTileImage&resizeWidth=436&resizeHeight=335&quality=high&cropWidth=436&cropHeight=335" alt="TMP36" width="200"/>
+
+[Source](https://www.digitec.ch/de/s1/product/goobay-3-v-12-v-universal-netzteil-15a-universalladegeraet-11511239)
 
 
 #### Thermoelectric Peltier Element: TEC1-12706
@@ -40,6 +74,19 @@ Water is an essential resource that we regularly use for drinking, cooking and f
 [Source](https://www.aliexpress.com/)
 
 
-#### DC Motor (working with 3.3 or 5V)
-#### Battery 12V
-#### Jumper wires (types: MF, FF, MM)
+https://www.sparkfun.com/products/9768
+
+#### DC Motor (working with 6V or 9V - 9V is generally more consistent)
+
+<img src="https://hk.element14.com/productimages/standard/en_GB/2457411-40.jpg" alt="DC Motor" width="200"/>
+
+[Datasheet](https://www.arduino.cc/documents/datasheets/DCmotor.PDF)
+[Source](https://aliexpress.com)
+
+### Pack of LEDs - white LED and Orange LED (with wave length between 530-560 nm for fluorescence measurement) 
+#### Battery 9V
+#### Jumper wires (types: Male-Female, Female-Female, Male-Male)
+### Soldering iron with tin
+### Glue gun (with glue sticks)
+
+
