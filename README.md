@@ -55,10 +55,10 @@ Water is an essential resource that we regularly use for drinking, cooking and f
 [Source](https://www.digitec.ch/de/s1/product/oem-ds18b20-sensor-elektronikmodul-8030174)
 
 
-#### Power Supply 9V, 1.5A (Variable): Goobay 3 V - 12 V universal power supply 1.5A
+#### Power Supply 9V, 1.5A (Variable): 3 V - 12 V universal power supply 1.5A
 <img src="https://static.digitecgalaxus.ch/Files/2/6/9/4/5/2/5/6/53997_neu_2018-07_1280x720.jpg?impolicy=ProductTileImage&resizeWidth=436&resizeHeight=335&quality=high&cropWidth=436&cropHeight=335" alt="TMP36" width="200"/>
 
-[Source](https://www.digitec.ch/de/s1/product/goobay-3-v-12-v-universal-netzteil-15a-universalladegeraet-11511239)
+[Source](https://www.distrelec.ch/en/power-supply-9v-600ma-4w-nordic-power-am-04159a-9v/p/16968715?channel=b2c&price_gs=10.41459&source=googleps&ext_cid=shgooaqchen-na&utm_source=google&utm_medium=surfaces&utm_campaign=surfaces_across_google_chen&ext_cid=shgooaqchen-p-shopping-fallback&gclid=EAIaIQobChMI96_OxLfE7AIVg-3tCh1RsQ7TEAQYASABEgLpjPD_BwE)
 
 
 #### Thermoelectric Peltier Element: TEC1-12706
