@@ -14,7 +14,7 @@ Water is an essential resource that we regularly use for drinking, cooking and f
 ### Hardware Components used
 
 #### Microcontroller: Arduino Uno
-<img src="https://www.olelectronics.com/wp-content/uploads/2020/03/Arduino_Uno_R3.jpg" alt="Arduino Nano" width="200"/>
+<img src="https://store-cdn.arduino.cc/usa/catalog/product/cache/1/image/500x375/f8876a31b63532bbba4e781c30024a0a/a/0/a000066_front_8.jpg" alt="Arduino_Uno" width="200"/>
 
 [Source](https://www.arduino.cc/en/Guide/ArduinoUno)
 
@@ -83,10 +83,10 @@ https://www.sparkfun.com/products/9768
 [Datasheet](https://www.arduino.cc/documents/datasheets/DCmotor.PDF)
 [Source](https://aliexpress.com)
 
-### Pack of LEDs - white LED and Orange LED (with wave length between 530-560 nm for fluorescence measurement) 
+#### Pack of LEDs - white LED and Orange LED (with wave length between 530-560 nm for fluorescence measurement) 
 #### Battery 9V
 #### Jumper wires (types: Male-Female, Female-Female, Male-Male)
-### Soldering iron with tin
-### Glue gun (with glue sticks)
+#### Soldering iron with tin
+#### Glue gun (with glue sticks)
 
 
