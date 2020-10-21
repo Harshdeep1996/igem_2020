@@ -30,7 +30,7 @@ Water is an essential resource that we regularly use for drinking, cooking and f
 #### Temperature Sensor: TMP36
 <img src="https://electropeak.com/pub/media/catalog/product/cache/10f519365b01716ddb90abc57de5a837/t/m/tmp36-temperature-sensor1.jpg" alt="TMP36" width="200"/>
 
-[Datasheet](https://www.analog.com/en/products/tmp36.html)
+[Datasheet](https://www.analog.com/en/products/tmp36.html)\
 [Source](https://learn.adafruit.com/tmp36-temperature-sensor)
 
 
