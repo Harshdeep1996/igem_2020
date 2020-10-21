@@ -10,6 +10,7 @@ Water is an essential resource that we regularly use for drinking, cooking and f
 1. Tinkercad: Used to make the CAD designs for 3D print, using `STL` files (https://www.tinkercad.com/)
 2. Circuit Diagram: Used to make circuit schematics using an online IDE (https://www.circuit-diagram.org/)
 3. PRUSA 3D Slicer: Used to generate the G Code and the sliced version of the 3D element (https://www.prusa3d.com/drivers/)
+4. Processing: Used to interface between the Arduino Serial Interface and to collect data on the host machine (https://processing.org/)
 
 ### Hardware Components used
 
