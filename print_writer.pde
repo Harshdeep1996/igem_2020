@@ -10,7 +10,7 @@ PrintWriter output;
 
 void setup() {
   println("Inside setup");
-  mySerial = new Serial(this, Serial.list()[0], 9600);
+  mySerial = new Serial(this, Serial.list()[2], 9600);
   String filename = "/Users/harshdeep/EPFL/igem_2020/data.txt";
  
   File f = new File(dataPath(filename));
@@ -21,13 +21,16 @@ void setup() {
     println("file exists");
     f.delete();
   }
-  output = createWriter(filename);
+  try {
+    output = new PrintWriter(new BufferedWriter(new FileWriter(filename, true)));;
+  } catch(IOException e) {}
 }
 
 void draw() {
     if (mySerial.available() > 0 ) {
          String value = mySerial.readString();
          if ( value != null ) {
+              println(value);
               output.println( value );
          }
     }
