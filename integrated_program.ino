@@ -49,7 +49,7 @@ int yellow_light_pin = 4;
  */
 
 int switch_cnt = 0;
-int THRESHOLD = 10;
+int THRESHOLD = 1;
 
 
 // for the temperature sensor
@@ -61,13 +61,13 @@ void switch_mode(){
   switch_cnt = 0;
   OD_MESUREMENT = !OD_MESUREMENT;
 
-  if (verbose){
+  //if (verbose){
     Serial.println("SWITCH!");
-  }
+  //}
   if (OD_MESUREMENT){
-    if(verbose){
-      Serial.println("Start OD mesurement");
-    }
+  //  if(verbose){
+  //    Serial.println("Start OD mesurement");
+  //  }
     tsl_input_pin = 2;
     cnt = 0;
     oldcnt = 0;
@@ -76,10 +76,10 @@ void switch_mode(){
     digitalWrite(yellow_light_pin, LOW);
     digitalWrite(white_light_pin, HIGH);
   } else {
-    if(verbose){
-      Serial.print("Start fluorescence mesurement ");
-      Serial.println("(using yellow led approx 580 nm)");
-    }
+    //if(verbose){
+    //  Serial.print("Start fluorescence mesurement ");
+    //  Serial.println("(using yellow led approx 580 nm)");
+    //}
     digitalWrite(yellow_light_pin, HIGH);
     digitalWrite(white_light_pin, LOW);
   }
@@ -116,7 +116,8 @@ void od_mesurements(){
       t = cnt;
       unsigned long hz = t - oldcnt;
       
-      Serial.print("FREQ: "); 
+      Serial.print(millis()); 
+      Serial.print(" FREQ: "); 
       Serial.print(hz);
       Serial.print("\t = "); 
       Serial.print((hz+50)/100);  // +50 == rounding last digit
@@ -140,8 +141,8 @@ void fluo_mesurements(){
 
   int blueV = map(blue, blue_low, blue_high, 0, 255);
   int blueVal = constrain(blueV, 0, 255);
-  
-  Serial.print("Red: "); Serial.print(redVal);
+  Serial.print(millis());
+  Serial.print(" Red: "); Serial.print(redVal);
   Serial.print(", ");
   Serial.print("Green: "); Serial.print(greenVal);
   Serial.print(", ");
@@ -163,8 +164,9 @@ void loop() {
   
   voltage = getVoltage(temperaturePin);
   degreesC = (voltage - 0.5) * 100.0;
-//  Serial.print("  deg C: ");
-//  Serial.println(degreesC);
+  Serial.print(millis());
+  Serial.print("  deg C: ");
+  Serial.println(degreesC);
 
   // unsigned long currentMillis = millis();
 
@@ -191,15 +193,14 @@ void loop() {
   }
 
   if((previousMillis + 3000 >= total_interval) && (previousMillis + 8000 >= total_interval) && (previousMillis > total_interval)) {
-    //if(switch_cnt == THRESHOLD){
-    //  switch_mode();
-    //}
+    if(switch_cnt == THRESHOLD){
+      switch_mode();
+    }
     // put your main code here, to run repeatedly:
-    //if (OD_MESUREMENT){
+    if (OD_MESUREMENT){
      od_mesurements();
-    //} else {
-    //fluo_mesurements();
-    //}
+    } else {
+      fluo_mesurements();
+    }
   }
-  // delay(2000);
 }
